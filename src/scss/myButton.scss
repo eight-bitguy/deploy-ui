@@ -1,0 +1,53 @@
+@import "variables";
+
+.my-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .my-button {
+    background: inherit;
+    border-radius: 25px;
+    border: 1px solid $primary-color;
+    outline: none !important;
+    height: 40px;
+    width: 20%;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: $primary-color !important;
+}
+
+  .my-button:active {
+    background: $secondary-color;
+    color: inherit !important;
+
+  }
+
+  .button-loader-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+}
+
+.-disabled {
+  .my-button {
+    // color: $light-primary-color !important;
+  }
+
+  .my-button:active {
+    background: inherit;
+    // color: $light-primary-color !important;
+  }
+}
+
+.back-icon {
+  fill: $secondary-color;
+}
+.logout-icon {
+  fill: $secondary-color;
+  width: auto;
+}

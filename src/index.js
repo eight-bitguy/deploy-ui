@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './app/App';
-import './main.scss';
+import DeployRouter from './JS/router';
+import './index.css';
 
-/**
- * ReactDOM.render: Renders App to index html file
- */
-ReactDOM.render(<App />, document.querySelector('#root'));
+import { createRoot } from 'react-dom/client';
+const container = document.querySelector('#root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(<DeployRouter />);

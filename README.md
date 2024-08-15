@@ -48,3 +48,4 @@ Enjoy!
 
 _NOTE: Detailed guide to setup this Simple React Boilerplate on your own, is coming soon.._
 _till then, clone/fork this project to use it in your projects_
+# deploy-ui
